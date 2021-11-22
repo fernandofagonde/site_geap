@@ -11,7 +11,7 @@
             <div class="col-md-6"> <img src="img/logo14.png" class="img-responsive"> </div>
             <div class="col-md-6">
                 <div class="about-text">                    
-                    <iframe width="100%" height="325" src="https://www.youtube.com/embed/videoseries?list=PL12_XkJcy9CYbBJobV0mwGItok4L9K3ef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>?>
+                    <iframe width="100%" height="325" src="https://www.youtube.com/embed/videoseries?list=PL12_XkJcy9CYbBJobV0mwGItok4L9K3ef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>                       
