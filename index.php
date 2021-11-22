@@ -121,41 +121,6 @@
     include('evangelho.php');
   ?>
 
-  <!-- aniversario 
-  <div id="aniversario">
-    <div class="container">
-      <div class="section-title text-center center">
-        <h2>12 anos do GEAP</h2>
-      </div>
-      <div class="row">
-        <img src="img/12anos.png" class="img-responsive center-block img-rounded" />
-      </div>
-    </div>
-  </div>
---!>
-  <!-- About Section 
-<div id="aniversario-section">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>GEAP 11 anos</h2>
-      <hr>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-6"> <iframe width="100%" height="360" src="https://www.youtube.com/embed/2hxdeemhSd0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
-      <div class="col-md-6">
-        <div class="about-text">
-          <p>Nas palavras de nossa querida irmã Scheilla, benfeitora espiritual do Grupo Espírita Alvorada da Paz:</p>
-          <p><i><strong>"Sejam fiéis ao Cristo, sejam fiéis ao Espírito Imortal e quando vocês encontrarem um desafio e por intuição de Deus vocês sentirem que este desafio é libertador e que está condizente com o vinde a mim, é para lá que vocês tem que ir, abracem as dificuldades, porque são exatamente essas dificuldades que auxiliam o avanço da alma na linha do tempo de Deus.</i></p>
-          <p><i>Movimentem-se com as lições vivas do otimismo cristão a fim de que a alegria lhe seja companheira.    Paute todas as suas atividades no ritmo de pensamentos superiores.</i></p>
-          <p><i>Recebam todos o meu carinho e minhas vibrações de Saúde, Luz e Paz.</i></strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
--->
-
   <!-- Services Section -->
   <div id="services-section" class="text-center">
     <div class="container">
