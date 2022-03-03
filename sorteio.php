@@ -23,18 +23,23 @@ $casaDestino[]='Fonte de Luz';
 $casaDestino[]='O Bom Samaritano';
 $casaDestino[]='Vicente de Paulo';
 
-echo "Sorteio das casas<br>";
+echo "<strong>Sorteio das casas</strong><br>";
 echo "=================<br><br>";
 for($i=0;$i<10;$i++){
     echo "-" . $casaOrigem[$i]. "<br>";
 }
 echo "<br>=================<br><br>";
+echo "<br>Realizando Sorteio.<br>";
+echo "<br>Sorteio realizado.<br>";
+echo "<br>=================<br><br>";
 while(count($casaOrigem)>0){
     $origem = rand(0,count($casaOrigem)-1);
     $destino = rand(0,count($casaDestino)-1);
     if($casaOrigem[$origem]<>$casaDestino[$destino]){
-        echo '   -> ' . $casaOrigem[$origem] . ' visita ' . $casaDestino[$destino].".<br>";
+        echo '   -> <strong>' . $casaOrigem[$origem] . '</strong> visita <strong>' . $casaDestino[$destino].".</strong><br>";
         array_splice($casaOrigem,$origem,1);
         array_splice($casaDestino,$destino,1);
     }
 }
+
+echo '<br>para refazer o sorteio clique <a href="sorteio.php">aqui</a><br><br>';
