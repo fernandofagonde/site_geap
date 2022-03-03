@@ -1,4 +1,6 @@
 <?PHP
+ini_set('max_execution_time', 60);
+
 $casaOrigem[]='Adolfo Bezerra de Menezes';
 $casaOrigem[]='Allan Kardec';
 $casaOrigem[]='Alvorada da Paz';
