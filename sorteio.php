@@ -1,5 +1,6 @@
 <?PHP
 ini_set('max_execution_time', 60);
+global $msg;
 
 $casaOrigem[]='Adolfo Bezerra de Menezes';
 $casaOrigem[]='Allan Kardec';
@@ -23,23 +24,42 @@ $casaDestino[]='Fonte de Luz';
 $casaDestino[]='O Bom Samaritano';
 $casaDestino[]='Vicente de Paulo';
 
-echo "<strong>Sorteio das casas</strong><br>";
-echo "=================<br><br>";
+texto( "<strong>Casas participando do sorteio</strong><br>");
+texto( "=================<br><br>");
 for($i=0;$i<10;$i++){
-    echo "-" . $casaOrigem[$i]. "<br>";
+    texto( "-" . $casaOrigem[$i]. "<br>");
 }
-echo "<br>=================<br><br>";
-echo "<br>Realizando Sorteio.<br>";
-echo "<br>Sorteio realizado.<br>";
-echo "<br>=================<br><br>";
+texto( "<br>=================<br><br>");
+texto( "<br>Sorteio realizado.<br>");
+texto( "<br>=================<br><br>");
 while(count($casaOrigem)>0){
     $origem = rand(0,count($casaOrigem)-1);
     $destino = rand(0,count($casaDestino)-1);
     if($casaOrigem[$origem]<>$casaDestino[$destino]){
-        echo '   -> <strong>' . $casaOrigem[$origem] . '</strong> visita <strong>' . $casaDestino[$destino].".</strong><br>";
+        texto( '   -> <strong>' . $casaOrigem[$origem] . '</strong> visita <strong>' . $casaDestino[$destino].".</strong><br>");
         array_splice($casaOrigem,$origem,1);
         array_splice($casaDestino,$destino,1);
     }
 }
 
-echo '<br>para refazer o sorteio aperte f5.<br><br>';
+	//Variável arquivo armazena o nome e extensão do arquivo.
+	$arquivo = "sorteio.txt";
+	
+	//Variável $fp armazena a conexão com o arquivo e o tipo de ação.
+	$fp = fopen($arquivo, "w+");
+
+	//Escreve no arquivo aberto.
+	fwrite($fp, $msg);
+	
+	//Fecha o arquivo.
+	fclose($fp);
+
+    function texto($txt){
+        global $msg;
+        echo $txt; 
+        $msg .= str_replace('<br>',"\n",$txt);
+        $msg  = str_replace('<strong>',"",$msg);
+        $msg  = str_replace('</strong>',"",$msg);
+    }
+
+    echo "Faça do download do arquivo do sorteio clicando <a href=\"sorteio.txt\"> Aqui</a>";    
