@@ -42,4 +42,4 @@ while(count($casaOrigem)>0){
     }
 }
 
-echo '<br>para refazer o sorteio clique <a href="sorteio.php">aqui</a><br><br>';
+echo '<br>para refazer o sorteio clique <a href="https://alvoradadapaz.org.br/sorteio.php">aqui</a><br><br>';
