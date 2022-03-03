@@ -20,17 +20,18 @@ $casaDestino[]='Léon Denis';
 $casaDestino[]='Fonte de Luz';
 $casaDestino[]='O Bom Samaritano';
 $casaDestino[]='Vicente de Paulo';
-echo "Sorteio das casas\n";
-echo "=================\n\n";
+
+echo "Sorteio das casas<br>";
+echo "=================<br><br>";
 for($i=0;$i<10;$i++){
-    echo "-" . $casaOrigem[$i]. "\n";
+    echo "-" . $casaOrigem[$i]. "<br>";
 }
-echo "\n=================\n\n";
+echo "<br>=================<br><br>";
 while(count($casaOrigem)>0){
     $origem = rand(0,count($casaOrigem)-1);
     $destino = rand(0,count($casaDestino)-1);
     if($casaOrigem[$origem]<>$casaDestino[$destino]){
-        echo '   -> ' . $casaOrigem[$origem] . ' visita ' . $casaDestino[$destino].".\n";
+        echo '   -> ' . $casaOrigem[$origem] . ' visita ' . $casaDestino[$destino].".<br>";
         array_splice($casaOrigem,$origem,1);
         array_splice($casaDestino,$destino,1);
     }
