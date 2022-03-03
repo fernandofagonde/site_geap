@@ -3,7 +3,7 @@ ini_set('max_execution_time', 60);
 
 $casaOrigem[]='Adolfo Bezerra de Menezes';
 $casaOrigem[]='Allan Kardec';
-$casaOrigem[]='Alvorada da Paz';
+//$casaOrigem[]='Alvorada da Paz';
 $casaOrigem[]='Amor e Caridade';
 $casaOrigem[]='Amor e Paz';
 $casaOrigem[]='Chico Xavier da Hulha Negra';
@@ -14,7 +14,7 @@ $casaOrigem[]='Vicente de Paulo';
 
 $casaDestino[]='Adolfo Bezerra de Menezes';
 $casaDestino[]='Allan Kardec';
-$casaDestino[]='Alvorada da Paz';
+//$casaDestino[]='Alvorada da Paz';
 $casaDestino[]='Amor e Caridade';
 $casaDestino[]='Amor e Paz';
 $casaDestino[]='Chico Xavier da Hulha Negra';
