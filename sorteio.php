@@ -1,5 +1,5 @@
 <?PHP
-ini_set('max_execution_time', 60);
+ini_set('max_execution_time', 15);
 global $msg;
 
 $casaOrigem[]='Adolfo Bezerra de Menezes';
@@ -7,29 +7,21 @@ $casaOrigem[]='Allan Kardec';
 //$casaOrigem[]='Alvorada da Paz';
 $casaOrigem[]='Amor e Caridade';
 $casaOrigem[]='Amor e Paz';
+$casaOrigem[]='Caminho da Luz';
 $casaOrigem[]='Chico Xavier da Hulha Negra';
-$casaOrigem[]='Léon Denis';
 $casaOrigem[]='Fonte de Luz';
+$casaOrigem[]='Léon Denis';
 $casaOrigem[]='O Bom Samaritano';
 $casaOrigem[]='Vicente de Paulo';
 
-$casaDestino[]='Adolfo Bezerra de Menezes';
-$casaDestino[]='Allan Kardec';
-//$casaDestino[]='Alvorada da Paz';
-$casaDestino[]='Amor e Caridade';
-$casaDestino[]='Amor e Paz';
-$casaDestino[]='Chico Xavier da Hulha Negra';
-$casaDestino[]='Léon Denis';
-$casaDestino[]='Fonte de Luz';
-$casaDestino[]='O Bom Samaritano';
-$casaDestino[]='Vicente de Paulo';
+$casaDestino= $casaOrigem;
 
-texto( "<strong>Casas participando do sorteio</strong><br>");
+texto( "<strong>".count($casaOrigem)." Casas participando do sorteio</strong><br>");
 texto( "=================<br><br>");
-for($i=0;$i<10;$i++){
+for($i=0;$i<count($casaOrigem);$i++){
     texto( "-" . $casaOrigem[$i]. "<br>");
 }
-texto( "<br>=================<br><br>");
+texto( "<br>=================<br>");
 texto( "<br>Sorteio realizado.<br>");
 texto( "<br>=================<br><br>");
 while(count($casaOrigem)>0){
@@ -37,8 +29,10 @@ while(count($casaOrigem)>0){
     $destino = rand(0,count($casaDestino)-1);
     if($casaOrigem[$origem]<>$casaDestino[$destino]){
         texto( '   -> <strong>' . $casaOrigem[$origem] . '</strong> visita <strong>' . $casaDestino[$destino].".</strong><br>");
-        array_splice($casaOrigem,$origem,1);
-        array_splice($casaDestino,$destino,1);
+        array_splice($casaOrigem,$origem,1); 
+        //echo "Removeu o item $origem da casaOrigem o count agora é: " . count($casaOrigem)."<br>";
+        array_splice($casaDestino,$destino,1); 
+        //echo "Removeu o item $destino da casaDestino o count agora é:". count($casaDestino)."<br>";
     }
 }
 

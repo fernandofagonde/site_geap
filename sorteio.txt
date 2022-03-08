@@ -1,0 +1,30 @@
+10 Casas participando do sorteio
+=================
+
+-Adolfo Bezerra de Menezes
+-Allan Kardec
+-Amor e Caridade
+-Amor e Paz
+-Caminho da Luz
+-Chico Xavier da Hulha Negra
+-Fonte de Luz
+-Léon Denis
+-O Bom Samaritano
+-Vicente de Paulo
+
+=================
+
+Sorteio realizado.
+
+=================
+
+   -> Caminho da Luz visita Amor e Caridade.
+   -> Amor e Paz visita Vicente de Paulo.
+   -> Fonte de Luz visita Allan Kardec.
+   -> O Bom Samaritano visita Adolfo Bezerra de Menezes.
+   -> Adolfo Bezerra de Menezes visita O Bom Samaritano.
+   -> Allan Kardec visita Chico Xavier da Hulha Negra.
+   -> Vicente de Paulo visita Caminho da Luz.
+   -> Chico Xavier da Hulha Negra visita Léon Denis.
+   -> Léon Denis visita Amor e Paz.
+   -> Amor e Caridade visita Fonte de Luz.

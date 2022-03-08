@@ -32,7 +32,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 a {
-	color: #005383;
+	color: #8e62a5;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -70,7 +70,7 @@ hr {
 	width: 60px;
 	text-align: center;
 	position: relative;
-	background: #005383;
+	background: #8e62a5;
 	border: 0;
 	margin: 10px auto 30px;
 }
@@ -100,16 +100,17 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #8e62a5;
 	font-size: 12px;
-	letter-spacing: 1px;
+	letter-spacing: 1px;	
 	
 }
+
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #FFF;
+	font-weight: bolder;
 }
 .on {
-	background-color:#4bb4d4 !important;
+	background-color: #ffffff!important;	
 }
 #menu.navbar-default .navbar-nav .on > li > a {
 	color: #FFF!important;
@@ -123,8 +124,8 @@ hr {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color:#005383;
-	border-color:#005383;
+	background-color:#8e62a5;
+	border-color:#8e62a5;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -138,7 +139,7 @@ hr {
 }*/
 header{
 	position: relative;
-    background: url("../img/capas14anos/topo.png");
+    background: url("../img/capas14anos/topo15.png");
     min-height: 100vh;
     background-size: cover;
     background-position:center;
@@ -184,7 +185,7 @@ header p {
 	font-family: vonique;
 	font-size: 40px;
 	letter-spacing: 5px;
-	color:#005383;
+	color:#8e62a5;
 }
 .upper{
 	text-transform: uppercase;
@@ -198,8 +199,8 @@ header p {
 .btn-default {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #005383;
-	border: 2px solid #005383;
+	background-color: #8e62a5;
+	border: 2px solid #8e62a5;
 	margin: 0 8px;
 	padding: 12px 24px;
 	font-size: 16px;
@@ -208,7 +209,7 @@ header p {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	background-color: #fff;
-	color: #005383;
+	color: #8e62a5;
 	border-color: #fff;
 }
 /* Services Section */
@@ -230,7 +231,7 @@ header p {
 	font-size: 40px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
-	color: #005383;
+	color: #8e62a5;
 }
 /* Gallery Section 
 ==============================*/
@@ -255,12 +256,12 @@ ol.type li a {
 	border-radius: 0;
 }
 ol.type li a.active {
-	color: #005383;
-	border: 1px solid #005383;
+	color: #8e62a5;
+	border: 1px solid #8e62a5;
 }
 ol.type li a:hover {
-	color: #005383;
-	border: 1px solid #005383;
+	color: #8e62a5;
+	border: 1px solid #8e62a5;
 }
 .isotope-item {
 	z-index: 2
@@ -385,12 +386,12 @@ img.img-circle.team-img {
 	padding: 9px;
 }
 .thumbnail h3{
-	color: #005383;
+	color: #8e62a5;
 }
 /* Achivements Section */
 #achievements {
 	padding: 80px 0;
-	background-color: #005383;
+	background-color: #8e62a5;
 }
 .achievement-box {
 	text-align: center;
@@ -420,7 +421,7 @@ img.img-circle.team-img {
 	padding: 30px 0;
 }
 #contact-section i.fa {
-	color: #005383;
+	color: #8e62a5;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
@@ -459,11 +460,11 @@ label {
 	border-radius: 4px;
 	padding: 10px 20px;
 	margin-top: 20px;
-	color: #005383;
+	color: #8e62a5;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #005383;
-	border: 2px solid #005383;
+	background: #8e62a5;
+	border: 2px solid #8e62a5;
 	color: #fff;
 }
 #contact-section .text-danger {
@@ -483,7 +484,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Social Section */
 #social-section {
 	padding: 30px 0;
-	background-color: #4bb4d4;
+	background-color: #8e62a5;
 	text-align: center;
 }
 #social-section .social ul li {
@@ -515,10 +516,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover, a:focus {
 	text-decoration: none;
-	color: #005383;
+	color: #8e62a5;
 }
 .badge{	
-	background-color: #005383 !important;
+	background-color: #8e62a5 !important;
 	color:#fff !important	;
 	border: none;
 	color: white;
@@ -536,7 +537,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	cursor: pointer;	
 
 	background-color: #FFFFFF  !important;
-	color: #005383 !important	;
+	color: #8e62a5 !important	;
 }
 
 @media (max-width: 768px) {
@@ -546,10 +547,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media (max-width: 603px) {
-	#menu.navbar-default {
-		
-		color: #FFF;
-	}
+	
 	label {
 		float: none !important
 	}
@@ -577,7 +575,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     border:none;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #005383;
+    background-color: #8e62a5;
     border:none;
 }
 
@@ -605,7 +603,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 */
 #palestras p{
-	color: #005383;	
+	color: #8e62a5;	
 }
 #palestras p strong{
 	color: rgb(22, 17, 56);	
@@ -636,7 +634,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-left: -20px;
   top: 95%;
   margin-top: -55px;
-  box-shadow: inset 0 0 0 1px #005383;
+  box-shadow: inset 0 0 0 1px #8e62a5;
   border-radius: 25px;
 }
 
@@ -644,7 +642,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   content: '';
   width: 8px;
   height: 8px;
-  background: #005383;
+  background: #8e62a5;
   margin-left: -4px;
   top: 4px;
   border-radius: 4px;

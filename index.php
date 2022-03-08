@@ -103,7 +103,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">          
-          <li><a href="#home14i" class="page-scroll"> <i style="color:#FF1111;" class="fas fa-broadcast-tower"></i>   14 anos </a></li>          
+          <li><a href="#home15" class="page-scroll"> <i style="color:#00aaff;" class="fas fa-broadcast-tower"></i>   15 anos </a></li>          
           <li><a href="#evangelho-section" class="page-scroll">Evangelho no lar</a></li>          
           <li><a href="#curtas" class="page-scroll">Curta frases</a></li>          
           <li><a href="#works-section" class="page-scroll">Obras</a></li>
@@ -127,11 +127,12 @@
 
 <?php        
     include_once('videos.php');
-    include_once('videos14.php');
+    include_once('videos15.php');
     include_once('spotify.php');
     include_once('curta_frases2.php');
     include('evangelho.php');
     include('arquivos.php');
+    include_once('videos14.php');
   ?>
 
   <!-- Services Section -->
